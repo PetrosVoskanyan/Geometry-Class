@@ -1,27 +1,30 @@
 class Point {
-  constructor(x, y) {
-    if (typeof x !== "number" || typeof y !== "number") {
-      throw new Error("Point constructur exptects two number arguments");
+    constructor(name, x, y) {
+        if (typeof x !== "number" || typeof y !== "number") {
+            throw new Error("Point constructur exptects two number arguments");
+        }
+
+        this.x = x;
+        this.y = y;
+        this.name = name;
     }
 
-    this.x = x;
-    this.y = y;
-  }
-
-  distanceFrom(point) {
-    return Math.sqrt((this.x - point.x) ** 2 + (this.y - point.y) ** 2);
-  }
+    distanceFrom(point) {
+        return Math.sqrt((this.x - point.x) ** 2 + (this.y - point.y) ** 2);
+    }
 }
 
 const renderPoint = (point) => `
   <div class="point-chip">
     <div class="text">
-      <div>x:</div>
-      <b>${point.x}</b>
+    <b>${point.name}</b>
+      <b>(</b>
+      <span>${point.x}</span>
     </div>
     <div class="text">
-      <div>y:</div>
-      <b>${point.y}</b>
+      <b>,</b>
+      <span>${point.y}</span>
+      <b>)</b>
     </div>
    </div>
 `;

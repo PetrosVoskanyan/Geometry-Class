@@ -1,151 +1,144 @@
 body {
-  font-family: sans-serif;
-  margin: 0;
+    font-family: sans-serif;
+    margin: 0;
 }
 
 .page-section {
-  background: lightgray;
-  border-radius: 10px;
-  padding: 24px;
-  margin: 10px;
+    background: lightgray;
+    border-radius: 10px;
+    padding: 24px;
+    margin: 10px;
 }
 
 .point-list {
-  margin: 16px;
-  display: flex;
-  box-shadow: 5px 5px 4px -6px rgb(0 0 0 / 70%),
-    -5px 4px 6px -5px rgb(0 0 0 / 70%);
-  border-radius: 8px;
-  background: white;
-  gap: 16px;
-  align-items: flex-start;
-  flex-wrap: wrap;
+    margin: 16px;
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .point-chip {
-  display: flex;
-  margin: 10px 10px;
-  gap: 16px;
-  border-radius: 4px;
-  box-shadow: 5px 5px 4px -6px rgb(0 0 0 / 70%),
-    -5px 4px 6px -5px rgb(0 0 0 / 70%);
-  padding: 8px;
-  background: aliceblue;
-  border: 1px solid #ccc;
+    display: flex;
+    margin: 10px 10px;
+    gap: 5px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 4px -6px rgb(0 0 0 / 70%), -5px 4px 6px -5px rgb(0 0 0 / 70%);
+    padding: 8px;
+    background: aliceblue;
+    border: 1px solid #ccc;
+    font-family: monospace;
 }
 
 .text {
-  flex: 1;
-  display: flex;
+    display: flex;
+    flex: 1;
 }
 
 .triangle-area {
-  margin: 16px;
-  display: flex;
-  gap: 16px;
+    margin: 16px;
+    display: flex;
+    gap: 16px;
 }
 
 .triangle-sides {
-  flex-direction: row;
-  padding: 8px 16px;
-  display: flex;
+    flex-direction: row;
+    padding: 8px 16px;
+    display: flex;
 }
 
 .triangle-info-container {
-  padding: 10px;
-  align-items: flex-start;
-  flex-wrap: wrap;
+    padding: 10px;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .triangle-card {
-  display: flex;
-  flex-direction: column;
-  box-shadow: 5px 5px 4px -6px rgb(0 0 0 / 70%),
-    -5px 4px 6px -5px rgb(0 0 0 / 70%);
-  border-radius: 4px;
-  margin: 16px;
-  border-radius: 8px;
-  background: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 4px -6px rgb(0 0 0 / 70%), -5px 4px 6px -5px rgb(0 0 0 / 70%);
+    border-radius: 4px;
+    margin: 16px;
+    border-radius: 8px;
+    background: white;
 }
 
 .triangle-card.is-invalid {
-  background: rgb(248, 144, 125);
+    background: rgb(248, 144, 125);
 }
 
 .triangle-vertices {
-  display: flex;
-  gap: 16px;
-  padding: 16px;
+    display: flex;
+    gap: 16px;
+    padding: 16px;
 }
 
 .circle.list {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .circle-area {
-  margin: 16px;
-  display: flex;
-  gap: 16px;
+    margin: 16px;
+    display: flex;
+    gap: 16px;
 }
 
 .circle-card {
-  display: flex;
-  flex-direction: column;
-  box-shadow: 5px 5px 4px -6px rgb(0 0 0 / 70%),
-    -5px 4px 6px -5px rgb(0 0 0 / 70%);
-  border-radius: 4px;
-  margin: 16px;
-  border-radius: 8px;
-  background: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 4px -6px rgb(0 0 0 / 70%), -5px 4px 6px -5px rgb(0 0 0 / 70%);
+    border-radius: 4px;
+    margin: 16px;
+    border-radius: 8px;
+    background: white;
 }
 
 .circle-center {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
 }
 
 .circle-center-text {
-  padding: 5px 0px;
+    padding: 5px 0px;
 }
 
 .rectangle-list {
-  display: flex;
-  flex-direction: column;
-  margin: 16px;
-  display: flex;
-  gap: 16px;
-  align-items: flex-start;
-  flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .rectangle-card {
-  margin: 16px;
-  display: flex;
-  gap: 8px;
-  flex-direction: column;
-  box-shadow: 5px 5px 4px -6px rgb(0 0 0 / 70%),
-    -5px 4px 6px -5px rgb(0 0 0 / 70%);
-  border-radius: 4px;
-  margin: 16px;
-  border-radius: 8px;
-  background: white;
+    margin: 16px;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    box-shadow: 5px 5px 4px -6px rgb(0 0 0 / 70%), -5px 4px 6px -5px rgb(0 0 0 / 70%);
+    border-radius: 4px;
+    margin: 16px;
+    border-radius: 8px;
+    background: white;
 }
 
 .rectangle-card.is-invalid {
-  background: rgb(248, 144, 125);
+    background: rgb(248, 144, 125);
 }
 
 .rectangle-area {
-  display: flex;
-  margin: 16px;
+    display: flex;
+    margin: 16px;
 }
 
 .rectangle-vertices {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
 }
