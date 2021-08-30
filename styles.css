@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    margin: 0;
+    margin: 10px;
 }
 
 .page-section {
@@ -73,7 +73,7 @@ body {
     padding: 16px;
 }
 
-.circle.list {
+.circle-list {
     display: flex;
     flex-direction: column;
 }
@@ -92,6 +92,7 @@ body {
     margin: 16px;
     border-radius: 8px;
     background: white;
+    flex: 1;
 }
 
 .circle-center {
@@ -109,7 +110,6 @@ body {
     display: flex;
     flex-direction: column;
     margin: 16px;
-    display: flex;
     gap: 16px;
     align-items: flex-start;
     flex-wrap: wrap;
@@ -141,4 +141,31 @@ body {
     flex-wrap: wrap;
     gap: 16px;
     padding: 16px;
+}
+
+.nav-button {
+    background-color: lightgrey;
+  border: none;
+  box-shadow: 5px 5px 4px -6px rgb(0 0 0 / 70%), -5px 4px 6px -5px rgb(0 0 0 / 70%);
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.nav-button.active {
+    background-color: aliceblue;
+}
+
+.app-name {
+    margin: 5px 6px;
+    font-size: 30px;
+    padding: 5px 0px;
+    border-bottom: 1px solid grey;
+    font-family: monospace;
 }

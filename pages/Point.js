@@ -29,11 +29,4 @@ const renderPoint = (point) => `
    </div>
 `;
 
-const renderPointList = (points) => `
-  <div class="page-section">
-    <h1>Point</h1>
-    <div class="point-list">
-        ${points.map(renderPoint).join("")}
-    </div>  
-  </div>
-`;
+const renderPointList = (points) => points.map(renderPoint).join("");

@@ -23,11 +23,4 @@ const renderCircle = (circle) => `
 </div>
 `;
 
-const renderCircleList = (circles) => `
-  <div class="page-section">
-    <h1>Circle</h1>
-    <div class="circle-list">
-      ${circles.map(renderCircle).join("")}
-    </div>
-  </div>
-`;
+const renderCircleList = (circles) => circles.map(renderCircle).join("");

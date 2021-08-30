@@ -56,11 +56,4 @@ const renderTriangle = (triangle) => `
 `;
 
 
-const renderTriangleList = (triangles) => `
-  <div class="page-section">
-    <h1>Triangle</h1>
-    <div class="triangle-list">
-      ${triangles.map(renderTriangle).join("")}
-    </div>
-  </div>
-`;
+const renderTriangleList = (triangles) => triangles.map(renderTriangle).join("");
