@@ -1,13 +1,17 @@
 body {
-    font-family: sans-serif;
+    background-image: url('https://www.cnet.com/a/img/j7SdHs9Ac8coHkwTOcJG1DYcQI4=/940x0/2019/04/19/f20d0d6a-1781-49a4-90ab-e285109b65b2/avengers-endgame-imax-poster-crop.png');
     margin: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .page-section {
-    background: lightgray;
+    background-image: url('https://media.comicbook.com/2020/12/marvel-sword-spoilers-new-infinity-stones-1248706.jpeg?auto=webp&width=1200&height=629&crop=1200:629,smart');
     border-radius: 10px;
     padding: 24px;
     margin: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .point-list {

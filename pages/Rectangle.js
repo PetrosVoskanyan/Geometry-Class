@@ -77,4 +77,8 @@ const renderRectangle = (rectangle) => `
 </div>
 `;
 
-const renderRectangleList = (rectangles) => rectangles.map(renderRectangle).join("");
+const renderRectangleList = (rectangles) => `
+  <div class="rectange-list">
+    ${rectangles.map(renderRectangle).join("")}
+  </div>
+`;

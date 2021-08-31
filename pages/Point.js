@@ -29,4 +29,8 @@ const renderPoint = (point) => `
    </div>
 `;
 
-const renderPointList = (points) => points.map(renderPoint).join("");
+const renderPointList = (points) => ` 
+  <div class="point-list">
+      ${points.map(renderPoint).join("")}
+  </div> 
+`;

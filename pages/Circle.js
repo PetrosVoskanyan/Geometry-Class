@@ -23,4 +23,8 @@ const renderCircle = (circle) => `
 </div>
 `;
 
-const renderCircleList = (circles) => circles.map(renderCircle).join("");
+const renderCircleList = (circles) => `
+  <div class="circle-list">
+    ${circles.map(renderCircle).join("")}
+  </div>
+`;
